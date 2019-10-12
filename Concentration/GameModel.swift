@@ -38,6 +38,11 @@ class GameModel
                 }
                 cards[index].isFaceUp = true
                 indexOfOneAndOnlyFaceUp = nil
+                // if this is the last pair, also remove them
+                if isGameDone() {
+                    cards[matchIndex].isFaceUp = false
+                    cards[index].isFaceUp = false
+                }
             } else { // either no cards or two cards are face up
                 for anyIndex in cards.indices {
                     cards[anyIndex].isFaceUp = false
@@ -50,6 +55,10 @@ class GameModel
     
     func getCard(at index: Int) -> Card {
         return cards[index]
+    }
+    
+    func isGameDone() -> Bool {
+        return (cards.filter { !$0.isMatched }).count == 0
     }
 
 }

@@ -12,6 +12,8 @@
 		22401B87230A427F00CF26EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22401B85230A427F00CF26EF /* Main.storyboard */; };
 		22401B89230A428100CF26EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22401B88230A428100CF26EF /* Assets.xcassets */; };
 		22401B8C230A428100CF26EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22401B8A230A428100CF26EF /* LaunchScreen.storyboard */; };
+		2287CDDD23524EAB008D131C /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CDDC23524EAB008D131C /* GameModel.swift */; };
+		2287CDDF23524F36008D131C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CDDE23524F36008D131C /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		22401B88230A428100CF26EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22401B8B230A428100CF26EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22401B8D230A428100CF26EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2287CDDC23524EAB008D131C /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		2287CDDE23524F36008D131C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				22401B93230A451300CF26EF /* Supporting Files */,
 				22401B83230A427F00CF26EF /* ViewController.swift */,
 				22401B85230A427F00CF26EF /* Main.storyboard */,
+				2287CDDC23524EAB008D131C /* GameModel.swift */,
+				2287CDDE23524F36008D131C /* Card.swift */,
 				22401B8D230A428100CF26EF /* Info.plist */,
 			);
 			path = Concentration;
@@ -145,6 +151,8 @@
 			files = (
 				22401B84230A427F00CF26EF /* ViewController.swift in Sources */,
 				22401B82230A427F00CF26EF /* AppDelegate.swift in Sources */,
+				2287CDDD23524EAB008D131C /* GameModel.swift in Sources */,
+				2287CDDF23524F36008D131C /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

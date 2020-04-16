@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @IBAction func touchCard(_ sender: UIButton) {
         flipCount += 1
-        if let cardNumber = cardButtons.index(of: sender) {
+        if let cardNumber = cardButtons.firstIndex(of: sender) {
             print("cardNumber is \(String(describing: cardNumber))")
             game.chooseCard(at: cardNumber)
             updateView()
